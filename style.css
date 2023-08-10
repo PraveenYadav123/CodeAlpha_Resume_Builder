@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-shadow: border-box;
+    font-family: "Roboto";
+}
+
+#sectionmainpage {
+    background-image: url("https://cdn.wallpapersafari.com/63/73/MtDBCh.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+
+}
+
+.navbar h1 {
+    color: blue;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.navbar h1 span {
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.navbar ul li a::first-letter {
+    color: blue;
+}
+
+.navbar ul li button {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.content {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 12px;
+    box-shadow: white 2px 2px 3px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 25vh;
+}
+
+.content h3 {
+    color: white;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.content h1 {
+    color: blue;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.content p {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.content button {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.content strong {
+    color: white;
+    font-size: 15px;
+}
+
+/* ----------------------------formpage -------------------------------*/
+#sectiondetails{
+    background-image:url("https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-virtual-background-_Tcjok-d9b4.jpg");
+    height:100%;
+    width:100vw;
+    background-size:cover;
+}
+
+.formdetails {
+    padding: 10px;
+}
+
+.formdetails h1 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.formdetails label {
+    font-size: 15px;
+    font-weight: 600;
+    color: gray;
+
+    margin-top: 15px;
+}
+
+.formdetails input,
+.formdetails textarea {
+    border-radius: 8px;
+    border: 1px solid blue;
+    padding: 8px;
+}
